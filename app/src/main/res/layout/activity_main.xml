@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.itzs.testcalendar.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btn_main_account_add"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="增加日历账户"/>
+            <TextView
+                android:id="@+id/tv_main_account_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!" />
+            <Button
+                android:id="@+id/btn_main_account_delete"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="删除日历账户"/>
+            <TextView
+                android:id="@+id/tv_main_account_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!" />
+            <Button
+                android:id="@+id/btn_main_account_update"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="更新日历账户"/>
+            <TextView
+                android:id="@+id/tv_main_account_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!" />
+            <Button
+                android:id="@+id/btn_main_account_query"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="查询日历账户"/>
+            <TextView
+                android:id="@+id/tv_main_account_query"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!" />
+
+            <Button
+                android:id="@+id/btn_main_add"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="增加日历事件"/>
+            <TextView
+                android:id="@+id/tv_main_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!" />
+            <Button
+                android:id="@+id/btn_main_delete"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="删除日历事件"/>
+            <TextView
+                android:id="@+id/tv_main_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!" />
+            <Button
+                android:id="@+id/btn_main_update"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="更新日历事件"/>
+            <TextView
+                android:id="@+id/tv_main_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!" />
+            <Button
+                android:id="@+id/btn_main_query"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="查询日历事件"/>
+            <TextView
+                android:id="@+id/tv_main_query"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
